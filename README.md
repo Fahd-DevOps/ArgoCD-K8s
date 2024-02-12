@@ -24,6 +24,7 @@ argocd account update-password
 # Register A Cluster To Deploy Apps To
 kubectl config get-contexts -o name ## list all clusters contexts in your current kubeconfig
 argocd cluster add CONTEXTNAME  ## argocd cluster add docker-desktop
+argocd app get YOURAPP ##  check app status
 
 ```
 </br>
